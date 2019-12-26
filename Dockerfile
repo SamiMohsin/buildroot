@@ -1,7 +1,7 @@
 FROM debian:stretch-20171210
 
 LABEL maintainer="Ayoob Buildroot" \
-description="Graphicalinfo.com Container with everything needed to run Buildroot created By Ayoob Alshahri"
+description="Graphicalinfo.com Container with everything needed to run Buildroot for raspberry pi 3 b+"
 
 # Setup environment
 ENV DEBIAN_FRONTEND noninteractive
