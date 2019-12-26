@@ -54,3 +54,7 @@ USER ayoob
 WORKDIR /home/ayoob
 ENV HOME /home/ayoob
 ENV LC_ALL en_US.UTF-8
+
+RUN git clone https://github.com/buildroot/buildroot  && \
+cd buildroot && \
+make raspberrypi3_defconfig
